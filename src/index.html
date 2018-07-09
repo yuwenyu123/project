@@ -1,0 +1,2443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>开心人大药房</title>
+    <link rel="stylesheet" type="text/css" href="./lib/font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="./lib/jquery-gsCarousel/jquery.gsCarousel.css" />
+    <link rel="stylesheet" type="text/css" href="./lib/jquery-gsCarousel_small/jquery.gsCarousel.css" />
+    <link rel="stylesheet" type="text/css" href="./css/base.css" />
+    <link rel="stylesheet" type="text/css" href="./css/head.css" />
+    <link rel="stylesheet" type="text/css" href="./css/bottom.css" />
+    <link rel="stylesheet" type="text/css" href="./css/foot.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <script type="text/javascript" src='./lib/require.js' data-main='./js/index'></script>
+</head>
+<body>
+    <div id="head-box">
+        <div class="head-box">
+            <div class="container">
+                <div class="head-store">
+                    <div class="store-left fl"></div>
+                    <div class="store-center fl">
+                        <div class="login-box fl">
+                            <span class='logoName'>欢迎加入开心人！</span>
+                            <span class='login'><a href="./html/login.html">请登录</a></span>
+                            <span class='register'><a href="./html/register.html">免费注册</a></span>
+                        </div>
+                        <ul class='top-nav fl'>
+                            <li><a href="javascript:">我的开心人</a></li>
+                            <li><a href="javascript:">代购预定</a></li>
+                            <li><a href="javascript:">信誉资质</a></li>
+                            <li><a href="javascript:">服务中心</a></li>
+                            <li><a href="javascript:">网站导航</a></li>
+                            <li class='mob_topico'>
+                                <span><i class='fa fa-building'></i>手机商城</span>
+                                <div class="message">
+                                    <p>
+                                        <strong>手机下单更方便</strong><br />
+                                        <strong>全场<span>66</span>包邮</strong>
+                                    </p>
+                                    <p class='code'>
+                                        <img src="./img/code.png" alt="" />
+                                    </p>
+                                    <p>m.360kxr.com</p>
+                                    <p>24小时服务</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <p class='consult-ico fl'>
+                            <a href=""></a>
+                        </p>
+                    </div>
+                    <div class="store-right fl"></div>
+                </div>
+                <div class="head-logo">
+                    <div class="logo-left fl">
+                        <a href="#"><img src="./img/logo.jpg" alt="" /></a>
+                    </div>
+                    <div class="logo-center fl">
+                        <div class="logo-center-top">
+                            <input type="text" id='logo-search' placeholder='请输入汇仁肾宝片或hrsbp' /><input type="button" id='logo-btn' value='搜 索' />
+                        </div>
+                        <div class="logo-center-bottom">
+                            <p>热门搜索：
+                                <a href="">麦卢卡蜂蜜</a>
+                                <a href="">万艾可</a>
+                                <a href="">金戈</a>
+                                <a href="">希爱力</a>
+                                <a href="">润众</a>
+                                <a href="">爱卫</a>
+                                <a href="">片仔癀</a>
+                                <a href="">安宫牛黄丸</a>
+                                <a href="">保法止</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="logo-right fr"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-box">
+        <div class="container">
+            <div class="main-nav">
+                <div class="main-nav-left fl">
+                    <h2>全部商品分类</h2>
+                </div>
+                <div class="main-nav-center fl">
+                    <ul>
+                        <li><a href="#">首 页</a></li>
+                        <li><a href="html/list.html">药 品</a></li>
+                        <li><a href="html/list.html">男性专区</a></li>
+                        <li><a href="html/list.html">母婴专区</a></li>
+                        <li class='active'><a href="html/list.html">健康资讯</a></li>
+                        <li><a href="html/list.html">葵花专场</a></li>
+                        <li><a href="html/list.html">同仁堂专场</a></li>
+                    </ul>
+                </div>
+                <div class="main-nav-right fr">
+                    <i class='fa fa-cart-plus'></i>
+                    <a href="html/shopping.html">我的购物车(<span class='shu'>0</span>)</a>
+                    <i class='fa fa-caret-right main-nav-right-arror'></i>
+                    <div class="main-nav-right-shopping">
+                        <div class="shop-left fl">
+                            <i class='fa fa-cart-plus'></i>
+                        </div>
+                        <div class="shop-right fl">
+                            <p>购物车中还没有商品,赶紧选购吧</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main-content">
+        <div class="container">
+            <div class="main-content-nav fl">
+                <div class="item item1">
+                    <div class="posi">
+                        <h3><a href="html/list.html">中医药品</a></h3>
+                        <p>
+                            <a href="html/list.html">心脑血管</a>
+                            <a href="html/list.html">肝病用药</a>
+                            <a href="html/list.html">养血生发</a>
+                            <a href="html/list.html">综合滋补</a>
+                            <a href="html/list.html">耳鼻用药</a>
+                            <a href="html/list.html">抑郁症</a>
+                            <a href="html/list.html">哮喘病</a>
+                            <a href="html/list.html">风湿病</a>
+                            <a href="html/list.html">银屑病</a>
+                        </p>
+                    </div>
+                    <div class="i-mc-1 item-mc">
+                        <div class="i-mc-1-left fl i-mc">
+                            <dl>
+                                <dt><a href="html/list.html">肝胆用药</a></dt>
+                                <dd>
+                                    <a href="html/list.html">脂肪肝</a>
+                                    <a href="html/list.html">保肝护肝</a>
+                                    <a href="html/list.html">甲乙肝</a>
+                                    <a href="html/list.html">肝硬化</a>
+                                    <a href="html/list.html">肝腹水</a>
+                                    <a href="html/list.html">胆道感染</a>
+                                    <a href="html/list.html">胆结石</a>
+                                </dd>
+                            </dl>
+                            <dl>  
+                                <dt><a href="">肿瘤用药</a></dt>
+                                <dd>
+                                    <a href="html/list.html">肝癌</a>
+                                    <a href="html/list.html">前列腺癌</a>
+                                    <a href="html/list.html">乳腺癌</a>
+                                    <a href="html/list.html">癌肺癌</a>
+                                    <a href="html/list.html">睾丸肿瘤</a>
+                                    <a href="html/list.html">辅助用药</a>
+                                    <a href="html/list.html">白血病(血癌)</a>
+                                    <a href="html/list.html">广谱抗肿瘤药</a>
+                                    <a href="html/list.html" class='active'>其他</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">心脑血管</a></dt>
+                                <dd>
+                                    <a href="html/list.html">高血压</a>
+                                    <a href="html/list.html">低血压</a>
+                                    <a href="html/list.html">高血脂</a>
+                                    <a href="html/list.html">心肌炎</a>
+                                    <a href="html/list.html">心率失常</a>
+                                    <a href="html/list.html">动脉硬化</a>
+                                    <a href="html/list.html">冠心病</a>
+                                    <a href="html/list.html">心绞痛</a>
+                                    <a href="html/list.html">脑中风后遗症</a>
+                                    <a href="html/list.html">脑血管病</a>
+                                    <a href="html/list.html">静脉曲张</a>
+                                    <a href="html/list.html">心力衰竭</a>
+                                    <a href="html/list.html">低钾血症</a>
+                                    <a href="html/list.html">动脉闭塞</a>
+                                    <a href="html/list.html">血管病预防</a>
+                                    <a href="html/list.html" class='active'>其他</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">糖尿病</a></dt>
+                                <dd>
+                                    <a href="html/list.html">2型糖尿病</a>
+                                    <a href="html/list.html">1型糖尿病</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">精神用药</a></dt>
+                                <dd>
+                                    <a href="html/list.html">抑郁症</a> 
+                                    <a href="html/list.html">精神分裂</a>
+                                    <a href="html/list.html">焦虑症</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">神经系统</a></dt>  
+                                <dd>
+                                    <a href="">癫痫</a>
+                                    <a href="html/list.html">头痛</a>
+                                    <a href="html/list.html">帕金森病</a>
+                                    <a href="html/list.html">神经痛</a>
+                                    <a href="html/list.html">记忆力减退</a>
+                                    <a href="html/list.html">眩晕</a>
+                                    <a href="html/list.html">晕车</a>
+                                    <a href="html/list.html">神经衰弱</a>
+                                    <a href="html/list.html">老年痴呆</a>
+                                    <a href="html/list.html">周围神经病</a>
+                                    <a href="html/list.html">失眠</a>
+                                    <a href="html/list.html">重症肌无力</a>
+                                    <a href="html/list.html" class='active'>其他</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">消化系统</a></dt>    
+                                <dd>
+                                    <a href="html/list.html">便秘</a>
+                                    <a href="html/list.html">消化不良</a>
+                                    <a href="html/list.html">呕吐恶心</a>
+                                    <a href="html/list.html">胃食管反流</a>
+                                    <a href="html/list.html">痔疮</a>
+                                    <a href="html/list.html">结肠炎</a>
+                                    <a href="html/list.html">胃炎</a>
+                                    <a href="html/list.html">肠炎腹泻</a>
+                                    <a href="html/list.html">胃十二指肠溃疡</a>
+                                    <a href="html/list.html">驱虫消积</a>
+                                    <a href="html/list.html">厌食</a>
+                                    <a href="html/list.html">疟疾</a>
+                                    <a href="html/list.html">其他</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">呼吸系统</a></dt>
+                                <dd>
+                                    <a href="html/list.html">扁桃体炎</a>  
+                                    <a href="html/list.html">气管炎</a>
+                                    <a href="html/list.html">肺气肿</a>
+                                    <a href="html/list.html">上呼吸道感染</a>
+                                    <a href="html/list.html">肺结核咽喉炎</a>
+                                    <a href="html/list.html">止咳化痰</a>
+                                    <a href="html/list.html">哮喘病</a>
+                                    <a href="html/list.html">肺心病</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">血液系统</a></dt>
+                                <dd>
+                                    <a href="html/list.html">缺铁性贫血</a> 
+                                    <a href="html/list.html">出血症</a>
+                                    <a href="html/list.html">血小板减少</a>
+                                    <a href="html/list.html">再生障碍性贫血</a>
+                                    <a href="html/list.html">白细胞减少症</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="">泌尿系统</a></dt>
+                                <dd>
+                                    <a href="html/list.html">泌尿系感染</a> 
+                                    <a href="html/list.html">泌尿系结石</a>
+                                    <a href="html/list.html">尿崩症</a>
+                                    <a href="html/list.html">尿失禁</a>
+                                    <a href="html/list.html">前列腺肥大</a> 
+                                    <a href="html/list.html">前列腺炎</a>     
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">皮肤疾病</a></dt>
+                                <dd>
+                                    <a href="html/list.html">酒糟鼻</a> 
+                                    <a href="html/list.html">白癜风</a>
+                                    <a href="html/list.html">冻伤</a>
+                                    <a href="html/list.html">皮肤瘙痒</a>
+                                    <a href="html/list.html">狐臭</a> 
+                                    <a href="html/list.html">皮肤皲裂</a>
+                                    <a href="html/list.html">蚊虫叮咬</a>
+                                    <a href="html/list.html">皮炎</a>
+                                    <a href="html/list.html">湿疹</a>
+                                    <a href="html/list.html">银屑病</a>
+                                    <a href="html/list.html">烧烫伤</a>
+                                    <a href="html/list.html">青春痘</a>
+                                    <a href="html/list.html">癣症</a>
+                                    <a href="html/list.html">祛斑</a>
+                                    <a href="html/list.html">鸡眼</a>
+                                    <a href="html/list.html">荨麻疹</a>
+                                    <a href="html/list.html">痈疽疔疮</a>
+                                    <a href="html/list.html">皮肤消毒</a>
+                                    <a href="html/list.html">皮肤过敏</a>
+                                    <a href="html/list.html">皮肤外伤</a>
+                                    <a href="html/list.html">瘢痕疙瘩</a>
+                                    <a href="html/list.html">抗菌类</a>
+                                    <a href="html/list.html">疱疹</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.htmlhtml/list.html">筋骨疼痛</a></dt>    
+                                <dd>
+                                    <a href="html/list.htmlhtml/list.html">跌打损伤</a> 
+                                    <a href="html/list.htmlhtml/list.html">肩周炎</a>
+                                    <a href="html/list.htmlhtml/list.html">坐骨神经痛</a>
+                                    <a href="html/list.htmlhtml/list.html">骨质疏松</a>
+                                    <a href="html/list.htmlhtml/list.html">风湿病</a> 
+                                    <a href="html/list.htmlhtml/list.html">颈椎病</a>
+                                    <a href="html/list.htmlhtml/list.html">骨质增生</a>
+                                    <a href="html/list.htmlhtml/list.html">痛风</a>
+                                    <a href="html/list.htmlhtml/list.html">类风湿</a>
+                                    <a href="html/list.htmlhtml/list.html">椎间盘突出</a>
+                                    <a href="html/list.htmlhtml/list.html">腰肌劳损</a>
+                                    <a href="html/list.htmlhtml/list.html">强直脊柱炎</a>
+                                    <a href="html/list.htmlhtml/list.html">滑膜炎</a>
+                                    <a href="html/list.htmlhtml/list.html" class='active'>其他</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="i-mc-1-right fl i-mc">
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">耳鼻用药</a>
+                                </dt>
+                                <dd>
+                                    <a href="html/list.html">过敏性鼻炎</a>
+                                    <a href="html/list.html">鼻炎</a>
+                                    <a href="html/list.html">鼻窦炎</a>
+                                    <a href="html/list.html">耳聋</a>
+                                    <a href="html/list.html">耳炎</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">口腔用药</a>
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">牙周病</a>
+                                    <a href="html/list.html">口腔溃疡</a>
+                                    <a href="html/list.html">口臭</a>
+                                </dd> 
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">眼科</a>
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">眼部消炎</a>
+                                    <a href="html/list.html">干眼症</a>
+                                    <a href="html/list.html">夜盲症</a>
+                                    <a href="html/list.html">青光眼</a>
+                                    <a href="html/list.html">过敏性结膜炎</a>
+                                    <a href="html/list.html">黄斑变性</a>
+                                    <a href="html/list.html">玻璃体混浊</a>
+                                    <a href="html/list.html">视网膜病变</a>
+                                    <a href="html/list.html">近视</a>
+                                    <a href="html/list.html">视疲劳</a>
+                                    <a href="html/list.html">白内障</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">养发生发</a></dt>
+                                <dd>
+                                    <a href="html/list.html">乌发</a>
+                                    <a href="html/list.html">养血生发</a>
+                                    <a href="html/list.html">头皮屑</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">滋补用药</a></dt>
+                                <dd>
+                                    <a href="html/list.html">综合滋补</a>
+                                    <a href="html/list.html">气血亏虚</a>
+                                    <a href="html/list.html">肾阴虚</a>
+                                    <a href="html/list.html">肾阳虚</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">维矿物质</a></dt>
+                                <dd>
+                                    <a href="html/list.html">能量补充</a>
+                                    <a href="html/list.html">硒缺乏症</a>
+                                    <a href="html/list.html">补锌类</a>
+                                    <a href="html/list.html">补铁类</a>
+                                    <a href="html/list.html">补钙类</a>
+                                    <a href="html/list.html">维生素类</a>
+                                    <a href="html/list.html">综合补充</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">家庭常备</a></dt>
+                                <dd>
+                                    <a href="html/list.html">感冒发热</a>
+                                    <a href="html/list.html">胃肠感冒</a>
+                                    <a href="html/list.html">普通感冒</a>
+                                    <a href="html/list.html">风热感冒</a>
+                                    <a href="html/list.html">流感</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">解热阵痛</a></dt>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">特殊病症</a></dt> 
+                                <dd>
+                                    <a href="html/list.html">移植用药</a>
+                                    <a href="html/list.html">激素类</a>
+                                    <a href="html/list.html">免疫缺陷</a>
+                                    <a href="html/list.html">疝气</a>
+                                    <a href="html/list.html">毒虫咬伤</a>
+                                    <a href="html/list.html">中暑</a>
+                                    <a href="html/list.html">戒烟解酒</a>
+                                    <a href="html/list.html">胰腺炎</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">性病</a></dt>
+                                <dd>
+                                    <a href="html/list.html">艾滋病</a>
+                                    <a href="html/list.html">非淋菌性尿</a>
+                                    <a href="html/list.html">梅毒</a>
+                                    <a href="html/list.html">淋病</a>
+                                    <a href="html/list.html">尖锐湿疣</a>
+                                    <a href="html/list.html">生殖器疱疹</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">男科</a></dt> 
+                                <dd>
+                                    <a href="html/list.html">性功能障碍</a>
+                                    <a href="html/list.html">早泄</a>
+                                    <a href="html/list.html">睾丸肿痛</a>
+                                    <a href="html/list.html">肾阴虚</a>
+                                    <a href="html/list.html">肾阳虚</a>
+                                    <a href="html/list.html">综合滋补</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">妇科</a></dt>  
+                                <dd>
+                                    <a href="html/list.html">减肥瘦身</a>
+                                    <a href="html/list.html">更年期综合症</a>
+                                    <a href="html/list.html">盆腔炎</a>
+                                    <a href="html/list.html">细菌性阴道炎</a>
+                                    <a href="html/list.html">妇科出血</a>
+                                    <a href="html/list.html">经前紧张症</a>
+                                    <a href="html/list.html">子宫肌瘤</a>
+                                    <a href="html/list.html">痛经 </a>
+                                    <a href="html/list.html">附件炎</a>
+                                    <a href="html/list.html">老年性阴道炎</a>
+                                    <a href="html/list.html">滴虫性阴道炎</a>
+                                    <a href="html/list.html">宫颈炎</a>
+                                    <a href="html/list.html">月经不调</a>
+                                    <a href="html/list.html">霉菌性阴道炎</a>
+                                    <a href="html/list.html">宫颈糜烂</a>
+                                    <a href="html/list.html">产后恢复</a>
+                                    <a href="html/list.html">孕妇用药</a>
+                                    <a href="html/list.html">产后缺乳</a>
+                                    <a href="html/list.html">乳腺疾病</a>
+                                    <a href="html/list.html">保胎不孕症</a>
+                                    <a href="html/list.html">其他</a>
+                                </dd>
+                            </dl>     
+                            <dl>
+                                <dt><a href="html/list.html">儿科</a></dt>  
+                                <dd>
+                                    <a href="html/list.html">惊风</a>
+                                    <a href="html/list.html">退热镇痛</a>
+                                    <a href="html/list.html">上呼吸感染</a>
+                                    <a href="html/list.html">眼部用药</a>
+                                    <a href="html/list.html">自汗盗汗</a>
+                                    <a href="html/list.html">皮肤用药</a>
+                                    <a href="html/list.html">风寒感冒</a>
+                                    <a href="html/list.html">鼻炎</a>
+                                    <a href="html/list.html">佝偻病</a>
+                                    <a href="html/list.html">腹泻</a>
+                                    <a href="html/list.html">小儿贫血</a>
+                                    <a href="html/list.html">婴儿用药</a>
+                                    <a href="html/list.html">遗尿症</a>
+                                    <a href="html/list.html">儿童哮喘</a>
+                                    <a href="html/list.html">止咳化痰</a>
+                                    <a href="html/list.html">补充营养</a>
+                                    <a href="html/list.html">促进消化</a>
+                                    <a href="html/list.html">口腔用药</a>
+                                    <a href="html/list.html" class='active'>其它</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item2">
+                    <div class="posi">
+                        <h3><a href="html/list.html">男性专区</a></h3>
+                        <p>
+                            <a href="html/list.html">性功能障碍</a>
+                            <a href="html/list.html">早泄</a>
+                            <a href="html/list.html">前列腺疾病</a>
+                            <a href="html/list.html">肾阳虚</a>
+                            <a href="html/list.html">气血亏虚</a>
+                            <a href="html/list.html">补肾壮阳</a>
+                            <a href="html/list.html">延时产品</a>
+                            <a href="html/list.html">情趣用品</a>
+                            <a href="html/list.html">安全套</a>
+                        </p>
+                    </div>
+                    <div class="i-mc-2 item-mc">
+                        <div class="i-mc-1-left fl i-mc">
+                            <dl>
+                                <dt><a href="html/list.html">性功能障碍</a></dt>
+                                <dd>
+                                    <a href="html/list.html">万艾可</a>
+                                    <a href="html/list.html">希爱力</a>
+                                    <a href="html/list.html">必利劲</a>
+                                    <a href="html/list.html">金戈</a>
+                                </dd>
+                            </dl>
+                            <dl>  
+                                <dt><a href="html/list.html">滋补用药</a></dt> 
+                                <dd>
+                                    <a href="html/list.html">温肾壮阳</a>
+                                    <a href="html/list.html">滋阴补肾</a>
+                                    <a href="html/list.html">综合滋补</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">前列腺疾病</a></dt>
+                                <dd>
+                                    <a href="html/list.html">前列腺炎</a>
+                                    <a href="html/list.html">前列腺肥大</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">延时产品</a></dt>
+                                <dd>
+                                    <a href="html/list.html">人初油气雾剂</a>
+                                    <a href="html/list.html">万艾可</a>
+                                    <a href="html/list.html">金戈</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="i-mc-1-right fl i-mc">
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">阳痿早泄</a>
+                                </dt>
+                                <dd>
+                                    <a href="html/list.html">五子衍宗丸</a>
+                                    <a href="html/list.html">汇仁肾宝片</a>
+                                    <a href="html/list.html">神威健阳片</a>
+                                    <a href="html/list.html">七鞭回春乐胶囊</a>
+                                    <a href="html/list.html">海狗丸</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">脱发少发</a>
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">保法止</a>
+                                    <a href="html/list.html">启悦</a>
+                                    <a href="html/list.html">达霏欣</a>
+                                    <a href="html/list.html">养血生发胶囊</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">情趣器具</a>
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">飞机杯</a>
+                                    <a href="html/list.html">润滑液</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">安全套</a></dt>
+                                <dd>
+                                    <a href="html/list.html">杜蕾斯</a>
+                                    <a href="html/list.html">冈本</a>
+                                    <a href="html/list.html">名流</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item3">
+                    <div class="posi">
+                        <h3><a href="html/list.html">女性专区</a></h3>
+                        <p>
+                            <a href="html/list.html">月经不调</a>
+                            <a href="html/list.html">乳腺疾病</a>
+                            <a href="html/list.html">更年期综合症</a>
+                            <a href="html/list.html">孕妇用药</a>
+                            <a href="html/list.html">阴道炎</a>
+                            <a href="html/list.html">宫颈糜烂</a>
+                            <a href="html/list.html">减肥瘦身</a>
+                            <a href="html/list.html">美容养颜</a>
+                            <a href="html/list.html">补气补血</a>
+                        </p>
+                    </div>
+                    <div class="i-mc-3 item-mc">
+                        <div class="i-mc-1-left fl i-mc">    
+                            <dl>
+                                <dt><a href="html/list.html">女性用药</a></dt>
+                                <dd>
+                                    <a href="html/list.html">菌性阴道炎</a>
+                                    <a href="html/list.html">细滴虫性阴道炎</a>
+                                    <a href="html/list.html">霉菌性阴道炎</a>
+                                    <a href="html/list.html">老年性阴道炎</a>
+                                    <a href="html/list.html">宫颈炎</a>
+                                    <a href="html/list.html">宫颈糜烂</a>
+                                    <a href="html/list.html">盆腔炎</a>
+                                    <a href="html/list.html">附件炎</a>
+                                    <a href="html/list.html">子宫肌瘤</a>
+                                    <a href="html/list.html">更年期</a>
+                                    <a href="html/list.html">月经不调</a>
+                                    <a href="html/list.html">痛经</a>
+                                    <a href="html/list.html">月经量少</a>
+                                    <a href="html/list.html">避孕</a>
+                                    <a href="html/list.html">短效避孕药</a>
+                                    <a href="html/list.html">紧急避孕药</a>
+                                    <a href="html/list.html">滋补</a>
+                                    <a href="html/list.html">滋补养血</a>
+                                    <a href="html/list.html">美容养颜</a>
+                                    <a href="html/list.html">减肥瘦身</a>
+                                    <a href="html/list.html">贫血</a>
+                                    <a href="html/list.html">维生素</a>
+                                </dd>
+                            </dl>
+                            <dl>  
+                                <dt><a href="html/list.html">婴幼儿用药</a></dt>
+                                <dd>
+                                    <a href="html/list.html">奶粉辅食</a> 
+                                    <a href="html/list.html">营养食品</a>
+                                    <a href="html/list.html">洗护用品</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="i-mc-1-right fl i-mc">
+                            <dl>
+                                <dt><a href="html/list.html">孕期用药</a></dt>     
+                                <dd>
+                                    <a href="html/list.html">孕前期</a>
+                                    <a href="html/list.html">孕中期</a>
+                                    <a href="html/list.html">哺乳期</a>
+                                    <a href="html/list.html">排卵测试</a>
+                                    <a href="html/list.html">缺乳</a>
+                                    <a href="html/list.html">验孕测试</a>
+                                    <a href="html/list.html">胎心仪</a>
+                                    <a href="html/list.html">维生素</a>
+                                    <a href="html/list.html">缩阴补铁</a>
+                                    <a href="html/list.html">保胎安胎</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">儿童用药</a>    
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">呼吸道</a>
+                                    <a href="html/list.html">感冒</a>
+                                    <a href="html/list.html">发烧</a>
+                                    <a href="html/list.html">咳嗽</a>
+                                    <a href="html/list.html">上感</a>
+                                    <a href="html/list.html">胃肠道</a>
+                                    <a href="html/list.html">腹泻</a>
+                                    <a href="html/list.html">消化不良</a>
+                                    <a href="html/list.html">营养补充</a>
+                                    <a href="html/list.html">DHA</a>
+                                    <a href="html/list.html">鱼肝油</a>
+                                    <a href="html/list.html">维生素</a>
+                                    <a href="html/list.html">多动症</a>
+                                    <a href="html/list.html">惊风</a>
+                                    <a href="html/list.html">鼻炎</a>
+                                    <a href="html/list.html" class='active'>其他</a>
+                                </dd> 
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item4">
+                    <div class="posi">
+                        <h3><a href="html/list.html">医疗器械</a></h3>
+                        <p>
+                            <a href="html/list.html">血糖注射</a>
+                            <a href="html/list.html">血糖仪</a>
+                            <a href="html/list.html">血压计</a>
+                            <a href="html/list.html">助行设备</a>
+                            <a href="html/list.html">制氧设备</a>
+                            <a href="html/list.html">雾化器</a>
+                            <a href="html/list.html">火罐刮痧</a>
+                            <a href="html/list.html">保健按摩</a>
+                            <a href="html/list.html">针灸热灸</a>
+                        </p>
+                    </div>
+                    <div class="i-mc-4 item-mc">
+                        <div class="i-mc-1-left fl i-mc">
+                            <dl>
+                                <dt><a href="html/list.html">家庭常备</a></dt> 
+                                <dd>
+                                    <a href="html/list.html">创口护理</a>
+                                    <a href="html/list.html">口罩</a>
+                                    <a href="html/list.html">纱布胶带</a>
+                                    <a href="html/list.html">药箱</a>
+                                    <a href="html/list.html">杀菌消毒</a>
+                                </dd>
+                            </dl>
+                            <dl>  
+                                <dt><a href="html/list.html">制氧设备</a></dt>
+                                <dd>
+                                    <a href="html/list.html">制氧设备</a>
+                                    <a href="html/list.html">储氧设备</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">血糖尿糖</a></dt> 
+                                <dd>
+                                    <a href="html/list.html">试纸类</a>
+                                    <a href="html/list.html">血糖仪</a>
+                                    <a href="html/list.html">血糖注射</a>
+                                    <a href="html/list.html">血氧饱和度仪</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">助行设备</a></dt> 
+                                <dd>
+                                    <a href="html/list.html">拐杖</a>
+                                    <a href="html/list.html">轮椅</a>
+                                    <a href="html/list.html">助行车</a>
+                                    <a href="html/list.html">坐便椅</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">血压系列</a></dt> 
+                                <dd>
+                                    <a href="html/list.html">电子血压</a> 
+                                    <a href="html/list.html">计听诊器</a>
+                                    <a href="html/list.html">自助血压计</a>
+                                    <a href="html/list.html">降压仪</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">保健按摩</a></dt>   
+                                <dd>
+                                    <a href="html/list.html">减肥按摩</a>
+                                    <a href="html/list.html">头部按摩</a>
+                                    <a href="html/list.html">眼部按摩</a>
+                                    <a href="html/list.html">腰背按摩</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">居家生活</a></dt>   
+                                <dd>
+                                    <a href="html/list.html">鼻腔护理器</a>
+                                    <a href="html/list.html">口腔用品</a>
+                                    <a href="html/list.html">雾化器</a>
+                                    <a href="html/list.html">眼罩</a>
+                                    <a href="html/list.html">痔疮</a>
+                                    <a href="html/list.html">个人磅秤</a>
+                                    <a href="html/list.html">运动系列</a>
+                                    <a href="html/list.html">体温计</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="i-mc-1-right fl i-mc">
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">康复系列</a> 
+                                </dt>
+                                <dd>
+                                    <a href="html/list.html">牵引用品</a>
+                                    <a href="html/list.html">贴膏</a>
+                                    <a href="html/list.html">贴膏系列</a>
+                                    <a href="html/list.html">保护固定</a>
+                                    <a href="html/list.html">火罐刮痧</a>
+                                    <a href="html/list.html">针灸热灸</a>
+                                    <a href="html/list.html">术后护理</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">护理用品</a> 
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">大小便器</a>
+                                    <a href="html/list.html">褥疮护理</a>
+                                    <a href="html/list.html">疝气治疗</a>
+                                    <a href="html/list.html">健康枕</a>
+                                    <a href="html/list.html">冲便器</a>
+                                    <a href="html/list.html" class='active'>其他</a>
+                                </dd> 
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">敷料器具</a> 
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">刀剪钳镊</a>
+                                    <a href="html/list.html">医用检查</a>
+                                    <a href="html/list.html">注射用品</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">服饰系列</a></dt>
+                                <dd>
+                                    <a href="html/list.html">防辐射服</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">护具系列</a></dt>
+                                <dd>
+                                    <a href="html/list.html">护腿</a>
+                                    <a href="html/list.html">护腕</a>
+                                    <a href="html/list.html">护膝</a>
+                                    <a href="html/list.html">护肘</a>
+                                    <a href="html/list.html">束腰</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">检测康复</a></dt>
+                                <dd>
+                                    <a href="html/list.html">检测仪</a>
+                                    <a href="html/list.html">治疗仪</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">隐形眼睛</a></dt>
+                                <dd>
+                                    <a href="html/list.html">润眼液</a>
+                                    <a href="html/list.html">护理液</a>
+                                    <a href="html/list.html">护理盒</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">其他系列</a></dt>
+                                <dd>
+                                    <a href="html/list.html">助听器</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item5">
+                    <div class="posi">
+                        <h3><a href="html/list.html">健康养生</a></h3>
+                        <p>
+                            <a href="html/list.html">辅助降压</a>
+                            <a href="html/list.html">调节血糖</a>
+                            <a href="html/list.html">保肝护肝</a>
+                            <a href="html/list.html">孕产妇用</a>
+                            <a href="html/list.html">骨质疏松</a>
+                            <a href="html/list.html">改善肠胃</a>
+                            <a href="html/list.html">免疫调节</a>
+                            <a href="html/list.html">延缓衰老</a>
+                            <a href="html/list.html">缓解疲劳</a>
+                        </p>
+                    </div>
+                    <div class="i-mc-5 item-mc">
+                        <div class="i-mc-1-left fl i-mc">
+                            <dl>
+                                <dt><a href="html/list.html">保健食品</a></dt>
+                                <dd>
+                                    <a href="html/list.html">补肾强身</a>
+                                    <a href="html/list.html">纤体排毒</a>
+                                    <a href="html/list.html">免疫调节</a>
+                                    <a href="html/list.html">美容养颜</a>
+                                    <a href="html/list.html">孕产妇用</a>
+                                    <a href="html/list.html">成长发育</a>
+                                    <a href="html/list.html">胃肠养护</a>
+                                    <a href="html/list.html">辅助降压</a>
+                                    <a href="html/list.html">辅助降血脂</a>
+                                    <a href="html/list.html">辅助降血糖</a>
+                                    <a href="html/list.html">骨骼健康</a>
+                                    <a href="html/list.html">保肝护肝</a>
+                                    <a href="html/list.html">改善记忆</a>
+                                    <a href="html/list.html">改善睡眠</a>
+                                    <a href="html/list.html">清咽润喉</a>
+                                    <a href="html/list.html">缓解视疲劳</a>
+                                    <a href="html/list.html">维矿物质</a>
+                                    <a href="html/list.html">养生茶饮</a>
+                                    <a href="html/list.html">传统滋补</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="i-mc-1-right fl i-mc">
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">药食同源</a>
+                                </dt>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">精品贵细</a>
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">参类</a>
+                                    <a href="html/list.html">鹿茸</a>
+                                    <a href="html/list.html">组合药膳</a>
+                                    <a href="html/list.html">蜂制品</a>
+                                    <a href="html/list.html">冬虫夏草</a>
+                                    <a href="html/list.html">洋参礼盒</a>
+                                    <a href="html/list.html">其他礼盒</a>
+                                    <a href="html/list.html">精制饮片</a>
+                                </dd> 
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="html/list.html">眼科</a>
+                                </dt> 
+                                <dd>
+                                    <a href="html/list.html">眼部消炎</a>
+                                    <a href="html/list.html">干眼症</a>
+                                    <a href="html/list.html">夜盲症</a>
+                                    <a href="html/list.html">青光眼</a>
+                                    <a href="html/list.html">过敏性结膜炎</a>
+                                    <a href="html/list.html">黄斑变性</a>
+                                    <a href="html/list.html">玻璃体混浊</a>
+                                    <a href="html/list.html">视网膜病变</a>
+                                    <a href="html/list.html">近视</a>
+                                    <a href="html/list.html">视疲劳</a>
+                                    <a href="html/list.html">白内障</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt><a href="html/list.html">普通食品</a></dt>
+                                <dd>
+                                    <a href="html/list.html">奶粉</a>>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="item item6">
+                    <div class="posi">
+                        <h3><a href="html/list.html">计生用品</a></h3>
+                        <p>
+                            <a href="html/list.html">安全套</a>
+                            <a href="html/list.html">延时产品</a>
+                            <a href="html/list.html">情趣用品</a>
+                        </p>
+                    </div>
+                    <div class="i-mc-6 item-mc">
+                        <div class="i-mc-1-left fl i-mc">
+                            <dl>
+                                <dt><a href="html/list.html">安全套</a></dt> 
+                                <dd>
+                                    <a href="html/list.html">超薄型</a>
+                                    <a href="html/list.html">果味型</a>
+                                    <a href="html/list.html">爽滑性</a>
+                                    <a href="html/list.html">螺纹浮点型</a>
+                                    <a href="html/list.html">小号活力装</a>
+                                    <a href="html/list.html">双重保护型</a>
+                                    <a href="html/list.html">持久型</a>
+                                    <a href="html/list.html">其他</a>
+                                </dd>
+                            </dl>
+                            <dl>  
+                                <dt><a href="html/list.html">避孕药</a></dt>
+                                <dd>
+                                    <a href="html/list.html">紧急避孕</a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="i-mc-1-right fl i-mc">
+                            <dl>
+                                <dt>
+                                    <a href="">排卵验孕试纸</a>
+                                </dt>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="">情趣用品</a>
+                                </dt> 
+                                <dd>
+                                    <a href="">增强延时</a>
+                                    <a href="">G点探索</a>
+                                    <a href="">润滑剂</a>
+                                    <a href="">玩具清洁</a>
+                                    <a href="">飞机杯</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content-banner fl">
+                <div class="main-content-banner-top">
+                    <ul></ul>
+                </div>
+                <div class="main-content-banner-bottom">
+                    <div class="sale-top">
+                        <i class=' fa fa-clock-o fl'></i>
+                        <span class='sale-left fl'>限时特价</span>
+                        <p class='Countdown fl'></p>
+                        <p class='forecast fr'>下期预告</p>
+                    </div>
+                    <div class="sale-bottom">
+                        <ul>
+                            <li class='fl y_li1'>
+                                <img src="./img/gangben_1.jpg" height="150" width="150" alt="" />
+                                <p>冈本003黄金超薄...</p>
+                                <p><span>￥ 99.00</span></p>
+                            </li>
+                            <li class='fl y_li2'>
+                                <img src="./img/gangben_2.jpg" height="150" width="150" alt="" />
+                                <p>加倍润滑 分秒享受...</p>
+                                <p><span>￥ 32.00</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content-notice fl">
+                <div class="main-content-notice-top">
+                    <ul>
+                        <li>
+                            <a href="html/list.html"><img src="./img/banner_4.jpg"/></a>
+                        </li>
+                        <li>
+                            <a href="html/list.html"><img src="./img/banner_5.jpg"/></a>
+                        </li>
+                        <li>
+                            <a href="html/list.html"><img src="./img/banner_6.jpg"/></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-content-notice-bottom">
+                    <div class="notice-top">
+                        <ul>
+                            <li class='fl'>
+                                <a href="javascript:">正品保障</a>
+                            </li>
+                            <li class='fl'>
+                                <a href="javascript:">网站公告</a>
+                            </li>
+                            <li class='fl'>
+                                <a href="javascript:">信誉资质</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="notice-bottom">
+                        <div class="notice-bottom_1">
+                            <p>
+                                <a href="javascript:">
+                                    <i class='fa fa-thumbs-o-up'></i>万种商品绝对正品</p>
+                                </a>
+                            <p>
+                                <a href="javascript:">
+                                    <i class='fa fa-truck'></i>全场满99免运费</p>
+                                </a>
+                            <p>
+                                <a href="javascript:">
+                                    <i class='fa fa-recycle'></i>七天无条件退货
+                                </a>
+                            </p>
+                            <p>
+                                <a href="javascript:">
+                                    <i class='fa fa-eercast'></i>2000城市货到付款
+                                </a>
+                            </p>
+                        </div>
+                        <div class="notice-bottom_2">
+                            <p><a href="javascript:">快递春节停运通知</a></p>
+                            <p><a href="javascript:">防止假冒客服电话诈骗公告</a></p>
+                            <p><a href="javascript:">警惕！冒充开心人的电话诈骗</a></p>
+                            <p><a href="javascript:">注意！本网站未与券妈妈网站合作</a></p>
+                            <p><a href="javascript:">积分清零活动公告</a></p>
+                            <p><a href="javascript:">工程携手开心人大药房扶贫..</a></p>
+                            <p><a href="javascript:">百度与药监局达成医药网站搜索..</a></p>
+                        </div>
+                        <div class="notice-bottom_3">
+                            <p><a href="javascript:">互联网药品交易服务资格证书</a></p>
+                            <p><a href="javascript:">互联网药品信息服务资格证书</a></p>
+                            <p><a href="javascript:">增值电信业务经营许可证</a></p>
+                            <p><a href="javascript:">药品经营许可证</a></p>
+                            <p><a href="javascript:">医疗器械经营企业许可证</a></p>
+                            <p><a href="javascript:">食品卫生许可证..</a></p>
+                            <p><a href="javascript:">公司营业执照..</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="goods-box">
+        <div class="container">
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span class='h1'>1F</span>男性健康</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">不孕不育</a></li>
+                                <li><a href="html/list.html">肾阴虚</a></li>
+                                <li><a href="html/list.html">肾阳虚</a></li>
+                                <li><a href="html/list.html">脱发白发</a></li>
+                                <li><a href="html/list.html">阳痿早泄</a></li>
+                                <li><a href="html/list.html">气血亏虚</a></li>
+                                <li><a href="html/list.html">前列腺疾病</a></li>
+                                <li><a href="html/list.html">必利劲</a></li>
+                                <li><a href="html/list.html">希爱力</a></li>
+                                <li><a href="html/list.html">金戈</a></li>
+                                <li><a href="html/list.html">万艾可</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">叶酸片</a></li>
+                                    <li><a href="html/list.html">儿童腹泻</a></li>
+                                    <li><a href="html/list.html">孕期用药</a></li>
+                                    <li><a href="html/list.html">AD维生素钙</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">孕期补钙</a></li>
+                                    <li><a href="html/list.html">儿童感冒</a></li>
+                                    <li><a href="html/list.html">宝宝过敏</a></li>
+                                    <li><a href="html/list.html">培菲康</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_1_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_1">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_1_4.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">万艾可 枸橼酸西地..</a>
+                                            <p>10余年历史见证就..</p>
+                                            <p>￥115.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_1_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">希爱力 5mg* ..</a>
+                                        <p>数量有限先到先得！..</p>
+                                        <p>￥880.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_1_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">启悦 非那雄胺片 ..</a>
+                                        <p>用于治疗男性雄激素..</p>
+                                        <p>￥420.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_1_7.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">同仁堂 六味地黄丸..</a>
+                                        <p>阴补肾。用于肾阴亏损</p>
+                                        <p>￥15.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span class='h2'>2F</span>滋补保健</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">蜂蜜</a></li>
+                                <li><a href="html/list.html">抗衰老</a></li>
+                                <li><a href="html/list.html">枫斗</a></li>
+                                <li><a href="html/list.html">石斛</a></li>
+                                <li><a href="html/list.html">川贝</a></li>
+                                <li><a href="html/list.html">福牌</a></li>
+                                <li><a href="html/list.html">康美</a></li>
+                                <li><a href="html/list.html">三七</a></li>
+                                <li><a href="html/list.html">驴胶补血</a></li>
+                                <li><a href="html/list.html">阿胶</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">补气补血</a></li>
+                                    <li><a href="html/list.html">阿胶</a></li>
+                                    <li><a href="html/list.html">补中益气</a></li>
+                                    <li><a href="html/list.html">缓解疲劳</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">抗衰老</a></li>
+                                    <li><a href="html/list.html">蜂蜜</a></li>
+                                    <li><a href="html/list.html">保肝护肝</a></li>
+                                    <li><a href="html/list.html">改善睡眠</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_2_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_2">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_2_3.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">北京同仁堂总统西洋..</a>
+                                            <p>非质量问题，不支持..</p>
+                                            <p>￥518.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_2_4.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">康美枸杞子150g..</a>
+                                        <p>滋补肝肾，益精明目..</p>
+                                        <p>￥59.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_2_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">【顺丰包邮】北京同..</a>
+                                        <p>非质量问题，不支持..</p>
+                                        <p>￥11800.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_2_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">康美 党参片 15..</a>
+                                        <p>健脾益肺，养血生津..</p>
+                                        <p>￥123.80</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span class='h3'>3F</span>维矿物质</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">金钙尔奇</a></li>
+                                <li><a href="html/list.html">善存银</a></li>
+                                <li><a href="html/list.html">民生</a></li>
+                                <li><a href="html/list.html">丹莪妇康煎膏</a></li>
+                                <li><a href="html/list.html">促进钙吸收</a></li>
+                                <li><a href="html/list.html">补锌</a></li>
+                                <li><a href="html/list.html">补钙</a></li>
+                                <li><a href="html/list.html">泡腾片</a></li>
+                                <li><a href="html/list.html">善存</a></li>
+                                <li><a href="html/list.html">钙尔奇</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">维C</a></li>
+                                    <li><a href="html/list.html">补充维生素</a></li>
+                                    <li><a href="html/list.html">葡萄糖酸锌钙</a></li>
+                                    <li><a href="html/list.html">钙尔奇</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">促进钙吸收</a></li>
+                                    <li><a href="html/list.html">补钙</a></li>
+                                    <li><a href="html/list.html">善存</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_3_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_3">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_3_4.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">玛特纳 复方多维元..</a>
+                                            <p>全面提供孕期维生素..</p>
+                                            <p>￥150.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_3_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">康美 三七粉 88..</a>
+                                        <p> 散瘀止血，消肿定..</p>
+                                        <p>￥129.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_3_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">力度伸 维生素C泡..</a>
+                                        <p>补充VC增强抵抗力..</p>
+                                        <p>￥27.80</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_3_7.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">同仁堂 补中益气丸..</a>
+                                        <p>用于脾胃虚弱、中气..</p>
+                                        <p>￥80.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span class='h4'>4F</span>家庭常备</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">耳聋丸</a></li>
+                                <li><a href="html/list.html">润眼液</a></li>
+                                <li><a href="html/list.html">风湿关节炎</a></li>
+                                <li><a href="html/list.html">三九胃泰</a></li>
+                                <li><a href="html/list.html">999感冒灵</a></li>
+                                <li><a href="html/list.html">邦迪</a></li>
+                                <li><a href="html/list.html">云南白药</a></li>
+                                <li><a href="html/list.html">痔疮</a></li>
+                                <li><a href="html/list.html">创可贴</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">感冒咳嗽</a></li>
+                                    <li><a href="html/list.html">急慢性腹泻</a></li>
+                                    <li><a href="html/list.html">过敏鼻炎</a></li>
+                                    <li><a href="html/list.html">烧伤烫伤</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">口腔溃疡</a></li>
+                                    <li><a href="html/list.html">便秘</a></li>
+                                    <li><a href="html/list.html">皮炎湿疹</a></li>
+                                    <li><a href="html/list.html">酒精棉球</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_4_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_4">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_4_4.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">必奇 蒙脱石散 3..</a>
+                                            <p>用于成人及儿童急、..</p>
+                                            <p>￥19.90</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_4_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">百多邦 莫匹罗星软..</a>
+                                        <p>皮肤感染瘙痒皮炎湿..</p>
+                                        <p>￥16.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_4_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">云南白药气雾剂 5..</a>
+                                        <p>活血散瘀，消肿止痛..</p>
+                                        <p>￥38.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_4_7.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">999 感冒灵颗粒..</a>
+                                        <p>热销感冒药，家庭常..</p>
+                                        <p>￥14.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span class='h5'>5F</span>女性呵护</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">阿胶</a></li>
+                                <li><a href="html/list.html">消糜栓</a></li>
+                                <li><a href="html/list.html">艾附暖宫丸</a></li>
+                                <li><a href="html/list.html">乌鸡白凤丸</a></li>
+                                <li><a href="html/list.html">阴道炎</a></li>
+                                <li><a href="html/list.html">盆腔炎</a></li>
+                                <li><a href="html/list.html">宫颈糜烂</a></li>
+                                <li><a href="html/list.html">暖宫调经</a></li>
+                                <li><a href="html/list.html">补气补血</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">补气补血</a></li>
+                                    <li><a href="html/list.html">炎症洗护</a></li>
+                                    <li><a href="html/list.html">盆腔炎</a></li>
+                                    <li><a href="html/list.html">乳腺疾病</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">暖宫调经</a></li>
+                                    <li><a href="html/list.html">宫颈糜烂</a></li>
+                                    <li><a href="html/list.html">阴道炎</a></li>
+                                    <li><a href="html/list.html">调经养颜</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_5_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_5">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_5_4.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">达克宁 硝酸咪康唑..</a>
+                                            <p>用于念珠菌性外阴阴..</p>
+                                            <p>￥22.30</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_5_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">洁尔阴洗液 180..</a>
+                                        <p>清热燥湿，杀虫止痒。</p>
+                                        <p>￥18.20</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_5_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">千金 妇科千金片 ..</a>
+                                        <p>清热除湿，益气化瘀..</p>
+                                        <p>￥58.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_5_7.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">步长 红核妇洁洗液..</a>
+                                        <p>用于湿毒下注之阴痒..</p>
+                                        <p>￥43.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span class='h6'>6F</span>孕婴保健</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">培菲康</a></li>
+                                <li><a href="html/list.html">宝宝过敏</a></li>
+                                <li><a href="html/list.html">儿童感冒</a></li>
+                                <li><a href="html/list.html">孕期补钙</a></li>
+                                <li><a href="html/list.html">AD维生素钙</a></li>
+                                <li><a href="html/list.html">孕期用药</a></li>
+                                <li><a href="html/list.html">儿童腹泻</a></li>
+                                <li><a href="html/list.html">叶酸片</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">叶酸片</a></li>
+                                    <li><a href="html/list.html">儿童腹泻</a></li>
+                                    <li><a href="html/list.html">孕期用药</a></li>
+                                    <li><a href="html/list.html">AD维生素钙</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">孕期补钙</a></li>
+                                    <li><a href="html/list.html">儿童感冒</a></li>
+                                    <li><a href="html/list.html">宝宝过敏</a></li>
+                                    <li><a href="html/list.html">培菲康</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_6_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_6">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_6_4.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">伊可新 维生素AD..</a>
+                                            <p>防佝偻病，促进婴儿..</p>
+                                            <p>￥117.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_6_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">金丐 醋酸钙颗粒 ..</a>
+                                        <p>用于预防和治疗钙缺..</p>
+                                        <p>￥48.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_6_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">葵花 小儿止咳糖浆..</a>
+                                        <p>祛痰镇咳</p>
+                                        <p>￥12.50</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_6_7.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">葵花小儿肺热咳喘口..</a>
+                                        <p>消热解毒，宣肺化痰</p>
+                                        <p>￥33.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span class='h7'>7F</span>专科用药</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">尿频尿急</a></li>
+                                <li><a href="html/list.html">肿瘤用药</a></li>
+                                <li><a href="html/list.html">更年期综合症</a></li>
+                                <li><a href="html/list.html">痛风</a></li>
+                                <li><a href="html/list.html">神经损伤</a></li>
+                                <li><a href="html/list.html">帕金森</a></li>
+                                <li><a href="html/list.html">癫痫</a></li>
+                                <li><a href="html/list.html">银屑病</a></li>
+                                <li><a href="html/list.html">哮喘</a></li>
+                                <li><a href="html/list.html">中风</a></li>
+                                <li><a href="html/list.html">高血压</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">三高病症</a></li>
+                                    <li><a href="html/list.html">冠心病</a></li>
+                                    <li><a href="html/list.html">肝炎</a></li>
+                                    <li><a href="html/list.html">支气管炎</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">糖尿病</a></li>
+                                    <li><a href="html/list.html">心脑血管</a></li>
+                                    <li><a href="html/list.html">胆结石</a></li>
+                                    <li><a href="html/list.html">脑血栓</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_7_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_7">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_7_4.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">Orion Mar..</a>
+                                            <p>防止血栓形成与发展</p>
+                                            <p>￥65.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_7_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">泰嘉 硫酸氢氯吡格..</a>
+                                        <p>能预防和治疗因血小..</p>
+                                        <p>￥99.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_7_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">贺普丁 拉米夫定片..</a>
+                                        <p>抑制病毒复制、改善..</p>
+                                        <p>￥195.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_1_7.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">康忻 富马酸比索洛..</a>
+                                        <p>用于原发性高血压、..</p>
+                                        <p>￥41.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span>8F</span>中药花茶</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">当归</a></li>
+                                <li><a href="html/list.html">茉莉花</a></li>
+                                <li><a href="html/list.html">决明子</a></li>
+                                <li><a href="html/list.html">金银花</a></li>
+                                <li><a href="html/list.html">灵芝</a></li>
+                                <li><a href="html/list.html">麦冬</a></li>
+                                <li><a href="html/list.html">大枣</a></li>
+                                <li><a href="html/list.html">汇真堂</a></li>
+                                <li><a href="html/list.html">林興堂</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">三七</a></li>
+                                    <li><a href="html/list.html">黄芪</a></li>
+                                    <li><a href="html/list.html">西洋参</a></li>
+                                    <li><a href="html/list.html">林興堂</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">灵芝</a></li>
+                                    <li><a href="html/list.html">菊花</a></li>
+                                    <li><a href="html/list.html">金银花</a></li>
+                                    <li><a href="html/list.html">汇真堂</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_8_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_8">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_8_3.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">康美 黄芪 150g</a>
+                                            <p>...</p>
+                                            <p>￥39.90</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_8_4.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">草晶华 淫羊藿 1..</a>
+                                        <p>补肾阳，强筋骨，祛..</p>
+                                        <p>￥102.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_8_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">汇真堂 西洋参 8..</a>
+                                        <p>用于气虚阴亏，虚热..</p>
+                                        <p>￥88.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_8_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">汇真堂 金银花 5..</a>
+                                        <p>用于痈肿疔疮，喉痹..</p>
+                                        <p>￥20.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span>9F</span>风湿骨外科</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">关节炎</a></li>
+                                <li><a href="html/list.html">肌肉疼痛</a></li>
+                                <li><a href="html/list.html">腰椎疼痛</a></li>
+                                <li><a href="html/list.html">腰肌劳损</a></li>
+                                <li><a href="html/list.html">骨质增生</a></li>
+                                <li><a href="html/list.html">关节肿胀</a></li>
+                                <li><a href="html/list.html">下肢疼痛</a></li>
+                                <li><a href="html/list.html">四肢麻木</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">风湿关节炎</a></li>
+                                    <li><a href="html/list.html">关节肿胀</a></li>
+                                    <li><a href="html/list.html">下肢疼痛</a></li>
+                                    <li><a href="html/list.html">骨质增生</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">肌肉疼痛</a></li>
+                                    <li><a href="html/list.html">腰椎疼痛</a></li>
+                                    <li><a href="html/list.html">双肢麻木</a></li>
+                                    <li><a href="html/list.html">腰肌劳损</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_9_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_9">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_9_3.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">羚锐 关节止痛膏 ..</a>
+                                            <p>活血祛瘀 温经镇痛</p>
+                                            <p>￥35.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_9_4.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">云南白药  云南白..</a>
+                                        <p>活血散瘀，消肿止..</p>
+                                        <p>￥53.90</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_9_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">999 正天丸 6..</a>
+                                        <p>疏风活血，养血平肝..</p>
+                                        <p>￥17.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_9_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">撒隆巴斯 复方水杨..</a>
+                                        <p>用于缓解肌肉疲劳、..</p>
+                                        <p>￥16.50</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span>10F</span>五官皮肤用药</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">疤痕修复</a></li>
+                                <li><a href="html/list.html">口疮</a></li>
+                                <li><a href="html/list.html">咽喉疼痛</a></li>
+                                <li><a href="html/list.html">耳聋耳背</a></li>
+                                <li><a href="html/list.html">过敏性鼻炎</a></li>
+                                <li><a href="html/list.html">缓解视疲劳</a></li>
+                                <li><a href="html/list.html">润眼液</a></li>
+                                <li><a href="html/list.html">皮炎湿疹</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">麦粒肿</a></li>
+                                    <li><a href="html/list.html">口腔溃疡</a></li>
+                                    <li><a href="html/list.html">耳聋耳背</a></li>
+                                    <li><a href="html/list.html">疤痕修复</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">眼干眼涩</a></li>
+                                    <li><a href="html/list.html">烧伤烫伤</a></li>
+                                    <li><a href="html/list.html">过敏鼻炎</a></li>
+                                    <li><a href="html/list.html">清咽利喉</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_10_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_10">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_10_3.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">雷诺考特 布地奈德..</a>
+                                            <p>季节性和常年性的过..</p>
+                                            <p>￥85.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_10_4.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">黄氏 黄氏响声丸(..</a>
+                                        <p>咽喉肿痛..</p>
+                                        <p>￥15.80</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_10_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">普特彼 他克莫司软..</a>
+                                        <p>本品适用于因潜在危..</p>
+                                        <p>￥168.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_10_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">同仁堂 六味地黄丸..</a>
+                                        <p>阴补肾。用于肾阴亏损</p>
+                                        <p>￥15.00</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span>11F</span>肠胃消化</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">急慢性胃炎</a></li>
+                                <li><a href="html/list.html">便秘</a></li>
+                                <li><a href="html/list.html">腹胀</a></li>
+                                <li><a href="html/list.html">急慢性腹泻</a></li>
+                                <li><a href="html/list.html">呕吐</a></li>
+                                <li><a href="html/list.html">反酸恶心</a></li>
+                                <li><a href="html/list.html">消化不良</a></li>
+                                <li><a href="html/list.html">舒肝和胃</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">舒肝和胃</a></li>
+                                    <li><a href="html/list.html">消化不良</a></li>
+                                    <li><a href="html/list.html">反酸恶心</a></li>
+                                    <li><a href="html/list.html">呕吐</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">急慢性腹泻</a></li>
+                                    <li><a href="html/list.html">腹胀</a></li>
+                                    <li><a href="html/list.html">便秘</a></li>
+                                    <li><a href="html/list.html">急慢性胃炎</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_11_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_11">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_11_3.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">同仁堂 舒肝和胃丸..</a>
+                                            <p>舒肝解郁肝胃不和和..</p>
+                                            <p>￥11.50</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href=""><img src="./img/goods_11_4.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">江中 健胃消食片（..</a>
+                                        <p>不思饮食、嗳腐酸臭..</p>
+                                        <p>￥19.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_11_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">肠炎宁片 0.42..</a>
+                                        <p>用于急慢性胃肠炎</p>
+                                        <p>￥23.80</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_11_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">同仁堂 麻仁润肠丸..</a>
+                                        <p>润肠通便。用于肠胃..</p>
+                                        <p>￥13.50</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_floor">
+                <div class="section_floor">
+                    <div class="sec_flo_title">
+                        <div class="flo_name fl">
+                            <h2><span>12F</span>器械成人</h2>
+                        </div>
+                        <div class="ill_name fr">
+                            <ul>
+                                <li><a href="html/list.html">杰士邦</a></li>
+                                <li><a href="html/list.html">冈本</a></li>
+                                <li><a href="html/list.html">避孕套</a></li>
+                                <li><a href="html/list.html">血糖仪</a></li>
+                                <li><a href="html/list.html">超薄超滑</a></li>
+                                <li><a href="html/list.html">血糖试纸</a></li>
+                                <li><a href="html/list.html">罗氏</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_flo_con">
+                        <div class="keyword_section fl">
+                            <div class="key_sc_name">
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">罗氏</a></li>
+                                    <li><a href="html/list.html">血糖试纸</a></li>
+                                    <li><a href="html/list.html">超薄超滑</a></li>
+                                    <li><a href="html/list.html">第六感</a></li>
+                                </ul>
+                                <ul class='fl'>
+                                    <li><a href="html/list.html">血糖仪</a></li>
+                                    <li><a href="html/list.html">避孕套</a></li>
+                                    <li><a href="html/list.html">冈本</a></li>
+                                    <li><a href="html/list.html">杰士邦</a></li>
+                                </ul>
+                            </div>
+                            <div class="key_sc_pic">
+                                <a href="html/list.html"><img src="./img/goods_12_1.jpg" height="155" width="170" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="slide_section fl slide_section_12">
+                            <ul></ul>
+                        </div>
+                        <div class="product_list fl">
+                            <ul>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_12_3.jpg" /></a>
+                                        <div class="product-bottom">
+                                            <a href="html/list.html">冈本003黄金超薄..</a>
+                                            <p>让你充分体验性享受</p>
+                                            <p>￥99.00</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_12_4.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">冈本 超润滑避孕套..</a>
+                                        <p>加倍润滑 分秒享受</p>
+                                        <p>￥32.00</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_12_5.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">杰士邦 zero零..</a>
+                                        <p>超薄中的极薄极润</p>
+                                        <p>￥55.60</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="product-top">
+                                        <a href="html/list.html"><img src="./img/goods_12_6.jpg" /></a>
+                                    </div>
+                                    <div class="product-bottom">
+                                        <a href="html/list.html">淑女 早孕试纸 H..</a>
+                                        <p>用于早期妊娠的辅助..</p>
+                                        <p>￥3.50</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="brand-box">
+        <div class="container">
+            <div class="brand_section">
+                <h2>品牌旗舰店</h2>
+            </div>
+            <div class="friend_tab">
+                <ul class='tabs_r'>
+                    <li class="thistab">友情链接</li>
+                    <li>重点推荐</li>
+                </ul>
+                <ul class='tab_conbox'>
+                    <li class='tab_conbox_1 tab_conbox_r'>
+                        <dl>
+                            <dt><a href="javascript:">中国药监局</a></dt>
+                            <dd><a href="javascript:">胃病的症状有哪些</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">腾讯微博</a></dt>
+                            <dd><a href="javascript:">福州分类信息</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">医学百科</a></dt>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">有问必答知识网</a></dt>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">寻医问药专家网</a></dt>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">药品</a></dt>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">中国医药联盟</a></dt>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">69健康</a></dt>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">药品资讯网</a></dt>
+                        </dl>
+                    </li>
+                    <li class='tab_conbox_2 tab_conbox_r'>
+                        <dl>
+                            <dt><a href="javascript:">北京同仁堂</a></dt>
+                            <dd><a href="javascript:">整形美容</a></dd>
+                            <dd><a href="javascript:">艾力达</a></dd>
+                            <dd><a href="javascript:">伟素</a></dd>
+                            <dd><a href="javascript:">甲钴胺片</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">感冒药</a></dt>
+                            <dd><a href="javascript:">万艾可</a></dd>
+                            <dd><a href="javascript:">爱卫试纸</a></dd>
+                            <dd><a href="javascript:">启悦非那雄胺片</a></dd>
+                            <dd><a href="javascript:">肾宝胶囊</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">早泄</a></dt>
+                            <dd><a href="javascript:">前列腺炎的危害</a></dd>
+                            <dd><a href="javascript:">鹿胎膏</a></dd>
+                            <dd><a href="javascript:">拜瑞妥</a></dd>
+                            <dd><a href="javascript:">倍他乐克</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">女性滋补品</a></dt>
+                            <dd><a href="javascript:">同仁堂制药</a></dd>
+                            <dd><a href="javascript:">伊利金领冠珍护奶粉</a></dd>
+                            <dd><a href="javascript:">帕夫林</a></dd>
+                            <dd><a href="javascript:">希爱力</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">男人肾虚的症状有哪些</a></dt>
+                            <dd><a href="javascript:">养肝护肝茶</a></dd>
+                            <dd><a href="javascript:">失眠的症状有哪些</a></dd>
+                            <dd><a href="javascript:">晶珠孚舒达</a></dd>
+                            <dd><a href="javascript:">绿盾口罩</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">六味地黄丸</a></dt>
+                            <dd><a href="javascript:">小孩感冒发烧怎么办</a></dd>
+                            <dd><a href="javascript:">健康出行清单</a></dd>
+                            <dd><a href="javascript:">朗依</a></dd>
+                            <dd><a href="javascript:">爱乐维</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">排毒养颜胶囊</a></dt>
+                            <dd><a href="javascript:">杜蕾斯官方旗舰店</a></dd>
+                            <dd><a href="javascript:">片仔癀</a></dd>
+                            <dd><a href="javascript:">达力士软膏</a></dd>
+                            <dd><a href="javascript:">蒙王肉蔻五味丸</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">冬虫夏草</a></dt>
+                            <dd><a href="javascript:">汇仁肾宝片</a></dd>
+                            <dd><a href="javascript:">同仁堂西黄丸</a></dd>
+                            <dd><a href="javascript:">依托考昔片</a></dd>
+                            <dd><a href="javascript:">百洛特</a></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:">排卵试纸</a></dt>
+                            <dd><a href="javascript:">福牌阿胶</a></dd>
+                            <dd><a href="javascript:">血糖仪</a></dd>
+                            <dd><a href="javascript:">盐酸帕罗西汀片</a></dd>
+                            <dd><a href="javascript:">盐酸普拉克索片</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="total_sina">
+        <div class="container">
+            <div class="sw_messa fl">
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>官方微信</dt>
+                            <dd>
+                                <img src="./img/erweim.jpg" height="75" width="75" />
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>手机药店</dt>
+                            <dd>
+                                <img src="./img/code.png" height="75" width="75" />
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="new_show fl">
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="javascript:">免费注册</a></dd>
+                    <dd><a href="javascript:">购物流程</a></dd>
+                    <dd><a href="javascript:">支付安全</a></dd>
+                    <dd><a href="javascript:">安全购药</a></dd>
+                </dl>
+                <dl>
+                    <dt>购买及支付相关</dt>
+                    <dd><a href="javascript:">支付方式</a></dd>
+                    <dd><a href="javascript:">发票</a></dd>
+                    <dd><a href="javascript:">退款</a></dd>
+                </dl>
+                <dl>
+                    <dt>配送相关</dt>
+                    <dd><a href="javascript:">配送方式</a></dd>
+                    <dd><a href="javascript:">配送费用</a></dd>
+                    <dd><a href="javascript:">配送地区</a></dd>
+                    <dd><a href="javascript:">库房展示</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后相关</dt>
+                    <dd><a href="javascript:">退换货政策</a></dd>
+                    <dd><a href="javascript:">如何退换货</a></dd>
+                    <dd><a href="javascript:">发票/票据</a></dd>
+                </dl>
+                <dl>
+                    <dt>会员相关/其他</dt>
+                    <dd><a href="javascript:">会员等级</a></dd>
+                    <dd><a href="javascript:">会员积分</a></dd>
+                    <dd><a href="javascript:">投诉与建议</a></dd>
+                </dl>
+            </div>  
+            <p><i class='fa fa-weibo'></i>新浪微博</p>
+            <a href="javascript:" class='guanzhu'>立即关注</a>
+        </div>
+    </div>
+    <div id="bottom-box">
+        <div class="bottom-box">
+            <div class="container">
+                <div class="bottom-top">
+                    <a href="javascript:">开心人介绍</a>
+                    <a href="javascript:">城市分布</a>
+                    <a href="javascript:">联系我们</a>
+                    <a href="javascript:">加入我们</a>
+                    <a href="javascript:">网站资质</a>
+                    <a href="javascript:">友情链接</a>
+                    <a href="javascript:">网站地图</a>
+                    <a href="javascript:">商品地图</a>
+                    <a href="javascript:">在线客服</a>
+                    <a href="javascript:">免费注册</a>
+                    <a href="javascript:">企业目录</a>
+                </div>
+                <div class="bottom-bottom">
+                    按字母索引商品：<a href="javascript:">A</a>
+                    <a href="javascript:">B</a>
+                    <a href="javascript:">C</a>
+                    <a href="javascript:">D</a>
+                    <a href="javascript:">E</a>
+                    <a href="javascript:">F</a>
+                    <a href="javascript:">G</a>
+                    <a href="javascript:">H</a>
+                    <a href="javascript:">I</a>
+                    <a href="javascript:">J</a>
+                    <a href="javascript:">K</a>
+                    <a href="javascript:">L</a>
+                    <a href="javascript:">M</a>
+                    <a href="javascript:">N</a>
+                    <a href="javascript:">O</a>
+                    <a href="javascript:">P</a>
+                    <a href="javascript:">Q</a>
+                    <a href="javascript:">U</a>
+                    <a href="javascript:">V</a>
+                    <a href="javascript:">W</a>
+                    <a href="javascript:">X</a>
+                    <a href="javascript:">Y</a>
+                    <a href="javascript:">Z</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="foot-box">
+        <div class="foot-box">
+            <div class="container">
+                <div class="p1">
+                    <a href="javascript:">互联网药品交易服务资格证书</a>
+                    <a href="javascript:">互联网药品信息服务资格证书</a>
+                    <a href="javascript:">增值电信业务经营许可证</a>
+                    <a href="javascript:">药品经营许可证</a>
+                    <a href="javascript:">医疗器械经营企业许可证</a>
+                    <a href="javascript:">食品卫生许可证</a>
+                    <a href="javascript:">公司营业执照</a>
+                    <a href="javascript:">GSP认证证书</a>
+                </div>
+                <div class="p2">
+                    <span>Copyright ©2010-2015</span>
+                    <a href="javascript:">开心人网上药店(www.360kxr.com)</a>
+                    <span>赣ICP证B2--20090025-2号</span>
+                    <a href="javascript:" class='active'><i></i>赣公网安备 36011102000116号</a><br />
+                    <span>江西开心人大药房连锁有限公司</span>
+                    <span>联系地址：江西省南昌市青山湖区民营科技园内高新大道918号</span>
+                </div>
+                <div class="p3">
+                    <a href="javascript:"><img src="./img/bank.jpg" height="33" width="138" alt="" /></a>
+                    <a href="javascript:"><img src="./img/ic.jpg" height="41" width="35" /></a>
+                    <a href="javascript:"><img src="./img/poli.jpg" height="40" width="32" /></a>
+                    <a href="javascript:"><img src="./img/bao.jpg" height="40" width="47" /></a>
+                    <a href="javascript:"><img src="./img/yin.jpg" height="41" width="39" /></a>
+                    <a href="javascript:"><img src="./img/health.jpg" height="40" width="48" /></a>
+                    <a href="javascript:"><img src="./img/yibai.jpg" height="43" width="39" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="insider_box">
+        <ul>
+            <li class="phone">
+                <a href="javascript:">
+                    <i class='fa fa-volume-control-phone'></i>
+                    <p>客服</p>
+                </a>
+            </li>
+            <li class="sever">
+                <a href="javascript:">
+                    <i class='fa fa-user-times'></i>
+                    <p>售后</p>
+                </a>
+            </li>
+            <li class="qrcode">
+                <a href="javascript:">
+                    <img src="./img/erweim.jpg" height="75" width="75" />
+                    <p>微信扫一扫</p>
+                </a>
+            </li>
+            <li class="wapqrcode">
+                <a href="javascript:">
+                    <img src="./img/code.png" height="74" width="74" />
+                    <p>手机药店</p>
+                </a>
+            </li>
+        </ul>
+        <div class="inreturntop">
+            <i class='fa fa-chevron-up'></i>
+            <p>返回顶部</p>
+        </div>
+    </div>
+</body>
+</html>

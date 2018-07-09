@@ -1,0 +1,195 @@
+#main-box {
+  height: 34px; }
+  #main-box .container {
+    position: relative; }
+    #main-box .container .main-nav {
+      width: 1200px;
+      height: 34px;
+      overflow: hidden;
+      background-color: #DE1B21; }
+      #main-box .container .main-nav .main-nav-left {
+        width: 250px;
+        height: 34px; }
+        #main-box .container .main-nav .main-nav-left h2 {
+          text-align: center;
+          font-size: 14px;
+          line-height: 34px;
+          color: #fff;
+          font-weight: bold; }
+      #main-box .container .main-nav .main-nav-center {
+        width: 700px;
+        height: 34px; }
+        #main-box .container .main-nav .main-nav-center ul {
+          width: 700px;
+          height: 34px;
+          overflow: hidden; }
+          #main-box .container .main-nav .main-nav-center ul li {
+            float: left; }
+            #main-box .container .main-nav .main-nav-center ul li a {
+              font-size: 14px;
+              line-height: 34px;
+              color: #fff;
+              display: block;
+              padding: 0 10px; }
+          #main-box .container .main-nav .main-nav-center ul li:first-child {
+            background-color: #a62326; }
+          #main-box .container .main-nav .main-nav-center ul li:hover {
+            background-color: #a62326; }
+          #main-box .container .main-nav .main-nav-center ul .active a {
+            font-weight: bold;
+            color: #fef597; }
+      #main-box .container .main-nav .main-nav-right:hover .main-nav-right-shopping {
+        display: block; }
+      #main-box .container .main-nav .main-nav-right {
+        width: 150px;
+        height: 34px;
+        background-color: #FF0105;
+        text-align: center; }
+        #main-box .container .main-nav .main-nav-right a {
+          font-size: 14px;
+          line-height: 34px;
+          color: #fff;
+          padding: 0 5px; }
+        #main-box .container .main-nav .main-nav-right i:first-child {
+          display: inline-block;
+          color: #fff;
+          font-size: 20px;
+          line-height: 34px; }
+        #main-box .container .main-nav .main-nav-right i:nth-child(3) {
+          display: inline-block;
+          width: 5px;
+          color: #fff;
+          font-size: 14px;
+          line-height: 34px; }
+        #main-box .container .main-nav .main-nav-right .main-nav-right-shopping {
+          display: none;
+          width: 350px;
+          height: 75px;
+          background-color: #fff;
+          border: 1px solid #ccc;
+          z-index: 100;
+          position: absolute;
+          right: 0px;
+          top: 34px; }
+          #main-box .container .main-nav .main-nav-right .main-nav-right-shopping .shop-left {
+            width: 65px; }
+            #main-box .container .main-nav .main-nav-right .main-nav-right-shopping .shop-left i {
+              display: inline-block;
+              padding-left: 15px;
+              color: #ccc;
+              font-size: 50px;
+              line-height: 75px; }
+          #main-box .container .main-nav .main-nav-right .main-nav-right-shopping .shop-right {
+            width: 280px; }
+            #main-box .container .main-nav .main-nav-right .main-nav-right-shopping .shop-right p {
+              width: 100%;
+              text-align: center;
+              font-size: 14px;
+              line-height: 75px; }
+
+#mainBox {
+  height: 341px;
+  margin-bottom: 20px; }
+  #mainBox .container {
+    position: relative; }
+    #mainBox .container .headAds {
+      text-align: center;
+      margin-bottom: 20px; }
+    #mainBox .container .gb-register-cont {
+      width: 960px;
+      height: 265px;
+      padding-top: 20px;
+      padding-bottom: 26px;
+      padding-left: 50px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      position: absolute;
+      left: 50%;
+      top: 80px;
+      transform: translate(-480px, 0); }
+      #mainBox .container .gb-register-cont .gb-register-cont_l {
+        width: 428px;
+        height: 219px;
+        border-right: 1px solid #ccc; }
+        #mainBox .container .gb-register-cont .gb-register-cont_l h2 {
+          font-size: 20px;
+          height: 62px;
+          line-height: 62px;
+          color: #000;
+          font-weight: bold; }
+        #mainBox .container .gb-register-cont .gb-register-cont_l .p1, #mainBox .container .gb-register-cont .gb-register-cont_l .p2 {
+          width: 380px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 14px;
+          margin-left: 20px; }
+          #mainBox .container .gb-register-cont .gb-register-cont_l .p1 input, #mainBox .container .gb-register-cont .gb-register-cont_l .p2 input {
+            display: inline;
+            border: 1px #BDBDBD solid;
+            width: 190px;
+            height: 22px;
+            line-height: 22px;
+            padding-left: 8px;
+            font-size: 12px; }
+        #mainBox .container .gb-register-cont .gb-register-cont_l .p3 {
+          width: 380px;
+          height: 40px;
+          line-height: 40px;
+          font-size: 14px;
+          margin-left: 20px;
+          input-margin-left: 63; }
+        #mainBox .container .gb-register-cont .gb-register-cont_l .p4 {
+          width: 380px;
+          height: 40px;
+          font-size: 14px;
+          margin-left: 20px; }
+          #mainBox .container .gb-register-cont .gb-register-cont_l .p4 a {
+            color: #888;
+            font-size: 12px;
+            line-height: 40px; }
+          #mainBox .container .gb-register-cont .gb-register-cont_l .p4 input {
+            width: 104px;
+            height: 34px;
+            margin-left: 63;
+            margin-right: 10px;
+            cursor: pointer;
+            vertical-align: middle;
+            font-size: 18px;
+            line-height: 34px;
+            display: inline-block;
+            color: #B2B2B2;
+            border-radius: 5px;
+            background-color: #AD0006; }
+      #mainBox .container .gb-register-cont .gb-register-cont_r {
+        width: 478px;
+        height: 219px;
+        padding-top: 20px;
+        padding-left: 80px; }
+        #mainBox .container .gb-register-cont .gb-register-cont_r .pa, #mainBox .container .gb-register-cont .gb-register-cont_r .pc {
+          height: 40px;
+          color: #000;
+          font-size: 13px;
+          line-height: 40px; }
+        #mainBox .container .gb-register-cont .gb-register-cont_r .pb a, #mainBox .container .gb-register-cont .gb-register-cont_r .pd a {
+          width: 104px;
+          height: 35px;
+          text-align: center;
+          font-size: 13px;
+          line-height: 35px;
+          display: inline-block;
+          margin-left: 25px;
+          color: #fff;
+          background-color: #3391D9;
+          border-radius: 5px;
+          margin-right: 10px;
+          margin-bottom: 10px; }
+
+.an {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  background-color: #ccc;
+  opacity: 0.8; }

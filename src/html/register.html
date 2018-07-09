@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="../lib/font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/head.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bottom.css" />
+    <link rel="stylesheet" type="text/css" href="../css/foot.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+    <script type="text/javascript" src='./../lib/require.js' data-main='../js/register'></script>
+</head>
+<body>
+    <div id="head-box"></div>
+    <div id="main-box">
+        <div class="container">
+            <div class="main-nav">
+                <div class="main-nav-left fl">
+                    <h2>全部商品分类</h2>
+                </div>
+                <div class="main-nav-center fl">
+                    <ul>
+                        <li><a href="">首 页</a></li>
+                        <li><a href="">药 品</a></li>
+                        <li><a href="">男性专区</a></li>
+                        <li><a href="">母婴专区</a></li>
+                        <li class='active'><a href="">健康资讯</a></li>
+                        <li><a href="">葵花专场</a></li>
+                        <li><a href="">同仁堂专场</a></li>
+                    </ul>
+                </div>
+                <div class="main-nav-right fr">
+                    <i class='fa fa-cart-plus'></i>
+                    <a href="./shopping.html">我的购物车(<span>0</span>)</a>
+                    <i class='fa fa-caret-right main-nav-right-arror'></i>
+                    <div class="main-nav-right-shopping">
+                        <div class="shop-left fl">
+                            <i class='fa fa-cart-plus'></i>
+                        </div>
+                        <div class="shop-right fl">
+                            <p>购物车中还没有商品,赶紧选购吧</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="res-mainBox">
+        <div class="container">
+            <div class="headAds">
+                <a href=""><img src="../img/login_1.jpg" height="60" width="960" alt="" /></a>
+            </div>
+            <div class="gb-register-cont">
+                <div class="gb-register-cont_l fl">
+                    <h2>加入我们开心人</h2>
+                    <p class="p1">
+                        <label for="u_username">用户名：</label>
+                        <input type="text" id='u_username' name='u_username' placeholder='请输入用户名' />
+                        <span class="register-star">*</span>
+                        <span class='register-tishi'>(必填,支持数字,下划线,字母,必须以字母开头,长度6-20)</span>
+                    </p>
+                    <p class="p2">
+                        <label for="u_password"> 密&nbsp;&nbsp;&nbsp;码：</label>
+                        <input type="password" id='u_password' name='u_password' />
+                        <span class="register-star">*</span>
+                        <span>(必填,6位以上，支持数字，下划线，字母)</span>
+                    </p>
+                    <p class="p3">
+                        <label for="u_password1">确认密码：</label>
+                        <input type="password" id='u_password1' name='u_password1' />
+                        <span class="register-star">*</span>
+                        <span>(必填)</span>
+                    </p>
+                    <p class="p4">
+                        <label for="u_email">电子邮箱：</label>
+                        <input type="text" id='u_email' name='u_email' />
+                        <span class="register-star">*</span>
+                        <span>(必填)</span>
+                    </p>
+                    <p class="p5">
+                        <label for="u_email">验 证 码：</label>
+                        <input type="text" id='ValidateCode1' name='ValidateCode1' />
+                        <span class='reflashyz'></span>
+                        <span class='reflashzc'>看不清，换一张</span>
+                    </p>
+                    <div class="p6">
+                        <a href="javascript:" class='reg' >同意一下协议并注册</a>
+                        <a href="javascript:" class='xieyi'>《开心人大药房网上药店的注册协议》</a>
+                    </div>
+                </div>
+                <div class="gb-register-cont_r fr">
+                    <p>您已是开心人一员</p>
+                    <a href="./login.html">立即登录</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom-box"></div>
+    <div id="foot-box"></div>
+</body>
+</html>

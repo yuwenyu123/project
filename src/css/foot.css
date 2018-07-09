@@ -1,0 +1,54 @@
+#foot-box {
+  height: 206px;
+  background-color: #f5f5f5; }
+  #foot-box .container {
+    height: 206px;
+    padding-top: 20px;
+    text-align: center; }
+    #foot-box .container .p1 {
+      height: 32px;
+      margin-bottom: 10px; }
+      #foot-box .container .p1 a {
+        display: inline-block;
+        padding: 0 15px;
+        font-size: 12px;
+        line-height: 32px;
+        color: #666; }
+      #foot-box .container .p1 a:hover {
+        color: #ea203a;
+        text-decoration: underline; }
+    #foot-box .container .p2 {
+      height: 48px;
+      margin-bottom: 26px;
+      position: relative; }
+      #foot-box .container .p2 span {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 32px;
+        color: #666;
+        padding: 0 10px; }
+      #foot-box .container .p2 a {
+        display: inline-block;
+        padding: 0 10px;
+        color: #3e3e3e;
+        font-size: 12px;
+        line-height: 32px; }
+        #foot-box .container .p2 a i {
+          display: block;
+          width: 18px;
+          height: 20px;
+          background: url("../img/sprites.png") no-repeat -300px 0;
+          position: absolute;
+          right: 405px;
+          top: 5px; }
+      #foot-box .container .p2 a:hover {
+        text-decoration: underline; }
+      #foot-box .container .p2 .active {
+        padding-left: 40px; }
+    #foot-box .container .p3 {
+      height: 46px;
+      text-align: center; }
+      #foot-box .container .p3 a {
+        display: inline-block;
+        height: 46px;
+        padding: 0 10px; }

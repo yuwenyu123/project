@@ -1,0 +1,394 @@
+#main-box{
+    width:100%;
+    height:34px;
+    .container{
+        position:relative;
+        .main-nav{
+            width:1200px;
+            height:34px;
+            overflow:hidden;
+            background-color:#DE1B21;
+            .main-nav-left{
+                width:250px;
+                height:34px;
+                h2{
+                    text-align:center;
+                    font-size:14px;
+                    line-height:34px;
+                    color:#fff;
+                    font-weight:bold;
+                }
+            }
+            .main-nav-center{
+                width:700px;
+                height:34px;
+                ul{
+                    width:700px;
+                    height:34px;
+                    overflow:hidden;
+                    li{
+                        float:left;
+                        a{
+                            font-size:14px;
+                            line-height:34px;
+                            color:#fff;
+                            display:block;
+                            padding:0 10px;
+                        }
+                    }
+                    li:first-child{
+                        background-color:#a62326;
+                    }
+                    li:hover{
+                        background-color:#a62326;
+                    }
+                    .active a{
+                        font-weight:bold;
+                        color:#fef597;
+                    }
+                }
+            }
+            .main-nav-right:hover{
+                .main-nav-right-shopping{
+                    display:block;
+                }
+            }
+            .main-nav-right{
+                width:150px;
+                height:100%;
+                background-color:#FF0105;
+                text-align:center;
+                a{
+                    font-size:14px;
+                    line-height:34px;
+                    color:#fff;
+                    padding:0 5px;
+                }
+                i:first-child{
+                    display:inline-block;
+                    color:#fff;
+                    font-size:20px;
+                    line-height:34px;
+                }
+                i:nth-child(3){
+                    display:inline-block;
+                    width:5px;
+                    color:#fff;
+                    font-size:14px;
+                    line-height:34px;
+                }
+                .main-nav-right-shopping{
+                    display:none;
+                    width:350px;
+                    background-color:#fff;
+                    border:1px solid #ccc;
+                    z-index:100;
+                    position:absolute;
+                    right:0px;
+                    top:34px;
+                    .shop-left{
+                        width:65px;
+                        i{
+                            display:inline-block;
+                            padding-left:15px;
+                            color:#ccc;
+                            font-size:50px;
+                            line-height:75px;
+                        }
+                    }
+                    .shop-right{
+                        width:280px;
+                        p{
+                            width:100%;
+                            text-align:center;
+                            font-size:14px;
+                            line-height:75px;
+                        }
+                    }
+                    h3{
+                        font-size:12px;
+                        line-height:37px;
+                        padding-left:8px;
+                        text-align:left;
+                        height:38px;
+                        border-bottom:1px solid #ccc;
+                        font-weight:bold;
+                        color:#000;
+                    }
+                    .goodslist{
+                        height:100%;
+                        text-align:left;
+                        li{
+                            width:350px;
+                            height:59px;
+                            padding:8px 10px 0px;
+                            font-size:12px;
+                            overflow:hidden;
+                            p{
+                                float:left;
+                                img{
+                                    width:50px;
+                                    height:50px;
+                                    border:1px solid #ccc;
+                                    margin-right:10px;
+                                    float:left;
+                                }
+                            }
+                            p:nth-child(1){
+                                width:51px;
+                            }
+                            p:nth-child(2){
+                                padding-left:10px;
+                                width:180px;
+                                margin-right:20px;
+                            }
+                            p:nth-child(3){
+                                width:50px;
+                            }
+                        }
+                    }
+                    .calcu{
+                        height:72px;
+                        background-color:#eee;
+                        padding-left:150px;
+                        p{
+                            padding-right:5px;
+                            font-size:14px;
+                            line-height:34px;
+                            color:#656565;
+                            span{
+                                color:red;
+                                padding:0 3px;
+                            }
+                        }
+                        a{
+                            display:inline-block;
+                            width:120px;
+                            height:30px;
+                            background-color:red;
+                            color:#fff;
+                            border-radius:5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#Contactlenses-top{
+    height:40px;
+    margin:10px 0;
+    .container{
+        height:40px;
+        border:1px solid #ccc;
+    }
+}
+#productwarp{
+    height:100%;
+    .container{
+        overflow:hidden;
+        .productleft{
+            width:250px;
+            height:312px;
+            border:1px solid #ccc;
+        }
+        .productright{
+            width:935px;
+            height:650px;
+            overflow:hidden;
+            .prodescribelf{
+                width:350px;
+                height:452px;
+                h2{
+                    width:350px;
+                    height:39px;
+                    font-size:18px;
+                    line-height:39px;
+                    text-align:center;
+                    font-weight:bold;
+                    color:#0b7bd6;
+                }
+                .main_img{
+                    width:312px;
+                    height:352px;
+                    margin:0 19px;
+                    border:1px solid #ccc;
+                    img{
+                        width:310px;
+                    }
+                }
+                .smallList{
+                    width:340px;;
+                    height:80px;
+                    margin-top:10px;
+                    margin-left:10px;
+                    overflow:hidden;
+                    img:hover{
+                        border:1px solid #ff9e06;
+                    }
+                    img{
+                        float:left;
+                        width:80px;
+                        height:80px;
+                        display:block;
+                        border:1px solid #ccc;
+                        margin-right:5px;
+                    }
+                }
+                .gds-zoom-big img{min-width: 1000px;}
+            }
+            .prodescribert{
+                width:560px;
+                height:601px;
+                .pro_func{
+                    width:560px;
+                    height:42px;
+                    padding:6px 0 10px;
+                    border-bottom:1px solid #ccc;
+                    font-size:16px;
+                    line-height:25px;
+                    color:#c90800;
+                    font-weight:bold;
+                }
+                .introduc{
+                    width:560px;
+                    height:150px;
+                    li{
+                        width:560px;
+                        height:30px;
+                        color:#333;
+                        font-size:14px;
+                        line-height:30px;
+                    }
+                }
+                .price{
+                    width:560px;
+                    height:67px;
+                    border-top:1px solid #ccc;
+                    margin-top:8px;
+                    .box1{
+                        width:560px;
+                        height:27px;
+                        margin:8px 0;
+                        .kxrprice{
+                            height:27px;
+                            font-size:12px;
+                            color:#666;
+                            margin-right:70px;
+                            .pro_mall_price{
+                                font-size:25px;
+                                line-height:27px;
+                                font-weight:bold;
+                                color:#e4393c;
+                            }
+                        }
+                        .lisheng{
+                            height:27px;
+                            font-size:12px;
+                            color:#666; 
+                            .Pro_NotRushWord2{
+                                font-size:25px;
+                                line-height:27px;
+                                color:#e4393c;
+                            }
+                        }
+                    }
+                    .box2{
+                        width:560px;
+                        height:23px;
+                        margin:8px 0;
+                        span{
+                            height:23px;
+                            font-size:12px;
+                            line-height:23px;
+                            color:#666;
+                            margin-right:10px;
+                        }
+                        a{
+                            height:23px;
+                            font-size:12px;
+                            line-height:23px;
+                            color:#000;
+                        }
+                        a:hover{
+                            color:#FF6600;
+                        }
+                    }
+                    .box3{
+                        width:560px;
+                        height:63px;
+                        padding:15px 0;
+                        border-top:1px solid #ccc;
+                        dl{
+                            width:395px;
+                            height:32px;
+                            dt{
+                                font-size:12px;
+                                color:#000;
+                                width:72px;
+                                height:23px;
+                                line-height:23px;
+                                float:left;
+                            }
+                            .zx{
+                                float:left;
+                                .zx1{
+                                    display:inline-block;
+                                    height:23px;
+                                    border:1px solid red;
+                                    font-size:12px;
+                                    line-height:23px;
+                                    color:#000;
+                                    padding:0 5px;
+                                }
+                                .zx1:hover{
+                                    color:#FF6600;
+                                }
+                            }
+                        }
+                    }
+                    .drugcontact{
+                        width:560px;
+                        height:55px;
+                        padding:15px 0;
+                        border-top:1px solid #ccc;
+                        span{
+                            font-size:14px;
+                            line-height:24px;
+                            color:#666;
+                        }
+                        .y_btn{
+                            height:24px;
+                            display:inline-block;
+                            padding:0 5px;
+                            cursor:pointer;
+                        }
+                        #y_qty{
+                            width:30px;
+                            height:24px;
+                            border:1px solid #ccc;
+                            display:inline-block;
+                            text-align:center;
+                        }
+                    }
+                    .propoint{
+                        width:560px;
+                        height:71px;
+                        border-top:1px solid #ccc;
+                        a{
+                            display:inline-block;
+                            padding:0 10px;
+                            font-size:16px;
+                            line-height:40px;
+                            border:1px solid #ccc;
+                            background-color:red;
+                            color:#fff;
+                            margin-top:15px;
+                            border-radius:5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

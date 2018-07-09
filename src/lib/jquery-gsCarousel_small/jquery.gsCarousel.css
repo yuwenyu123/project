@@ -1,0 +1,10 @@
+.gs-carousel_small ul{padding:0;margin:0;list-style: none;}
+.gs-carousel_small{position:relative;width:279px;height:265px;}
+.gs-carousel_small ul{position:relative;}
+.gs-carousel_small ul li{position:absolute;top:0;left:0px;width:279px;height:265px;overflow:hidden;}
+.gs-carousel_small ul li img{width: 279px;}
+.gs-carousel_small .page{position:absolute;right:-10px;bottom:-15px;padding:10px;}
+.gs-carousel_small .page span{display:inline-block;margin:0 5px;width:30px;height:5px;line-height:30px;background-color:#ccc;text-align:center;color:transparent;}
+.gs-carousel_small .page span.active{background-color: rgba(255,0,0,.8);}
+.gs-carousel_small>span{position: absolute;top:50%;left:10px;margin-top:-25px;height:50px;padding:15px;background-color: rgba(0,0,0,.3);color:#fff;}
+.gs-carousel_small>span.btn-next{left:auto;right:10px;}

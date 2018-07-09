@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>list</title>
+    <link rel="stylesheet" type="text/css" href="../lib/font-awesome-4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/head.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bottom.css" />
+    <link rel="stylesheet" type="text/css" href="../css/foot.css" />
+    <link rel="stylesheet" type="text/css" href="../css/list.css" />
+    <script type="text/javascript" src='./../lib/require.js' data-main='../js/list'></script>
+</head>
+<body>
+    <div id="head-box"></div>
+    <div id="main-box">
+        <div class="container">
+            <div class="main-nav">
+                <div class="main-nav-left fl">
+                    <h2>全部商品分类</h2>
+                </div>
+                <div class="main-nav-center fl">
+                    <ul>
+                        <li><a href="javascript:">首 页</a></li>
+                        <li><a href="javascript:">药 品</a></li>
+                        <li><a href="javascript:">男性专区</a></li>
+                        <li><a href="javascript:">母婴专区</a></li>
+                        <li class='active'><a href="javascript:">健康资讯</a></li>
+                        <li><a href="javascript:">葵花专场</a></li>
+                        <li><a href="javascript:">同仁堂专场</a></li>
+                    </ul>
+                </div>
+                <div class="main-nav-right fr">
+                    <i class='fa fa-cart-plus'></i>
+                    <a href="./shopping.html">我的购物车(<span class='shu'>0</span>)</a>
+                    <i class='fa fa-caret-right main-nav-right-arror'></i>
+                    <div class="main-nav-right-shopping">
+                        <div class="shop-left fl">
+                            <i class='fa fa-cart-plus'></i>
+                        </div>
+                        <div class="shop-right fl">
+                            <p>购物车中还没有商品,赶紧选购吧</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="list-main">
+        <div class="container">
+            <div class="position-box">
+                <img src="../img/list_1.png" height="35" width="1198" />
+            </div>
+            <div class="second-class-box">
+                <div class="second-left-box fl">
+                    <div class="second-nav-box">
+                        <img src="../img/list_4.png" height="642" width="248" alt="" />
+                    </div>
+                    <div class="browse-box">
+                        <img src="../img/list_5.png" height="40" width="250" alt="" />
+                    </div>
+                    <div class="common-box"></div>
+                </div>
+                <div class="second-right-box fr">
+                    <div class="lunbo-box">
+                        <img src="../img/list_2.png" height="175" width="930" alt="" />
+                    </div>
+                    <div class="hot-hunt">
+                        <span>热门搜索：</span>
+                        <a href="javascript:">妇科</a>
+                        <a href="javascript:">福牌阿胶</a>
+                        <a href="javascript:">龟鹿二胶丸</a>
+                        <a href="javascript:">神威健阳片</a>
+                    </div>
+                    <div class="hunt-box">
+                        <img src="../img/list_3.png" height="152" width="930" alt="" />
+                    </div>
+                    <div class="hunt-list-box">
+                        <div class="hunt-list-top">
+                            <h3>药品清单</h3>
+                            <div class="goods-total">
+                                共
+                                <b>0</b>
+                                个商品
+                                <span>1/1</span>
+                            </div>
+                        </div>
+                        <ul class="ul-list0"></ul>
+                        <div class="pages-box">
+                            <div class="page-num fr">
+                                <span class='num'>共几页</span>
+                                <span>到第</span>
+                                <input type="text" id='pageIndexs' />
+                                <span>页</span>
+                                <a href="javascript:" id='queding'>确定</a>
+                            </div>
+                            <div class="page-turning fl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom-box"></div>
+    <div id="foot-box"></div>
+</body>
+</html>
